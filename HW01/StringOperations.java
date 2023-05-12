@@ -4,7 +4,8 @@ public class StringOperations {
 		String myName = "Cashby";
 		System.out.println(myName);
 		
-		String newName = "A" + myName.substring(1,5) + "Z";
+		String newName = myName.replace('C','A');
+		newName = newName.replace('y','Z');
 		System.out.println(newName);
 		
 		String myURL = "www.twitch.tv";
