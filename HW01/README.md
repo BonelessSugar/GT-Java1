@@ -11,6 +11,7 @@ Make sure you read the entire document!  In fact, consider each assignment in th
 Solution Description
 
 This homework will be split into two parts - the first will be focused on working with the various primitive types that Java provides us. The second will be focused on using methods that come with the String class. Additionally, this homework requires you to do some basic debugging on erroneous code that we have provided with this document and to submit some information to help us get to know you better.
+
 Section 1: Primitive Operations
 
 All of the instructions in this section should be carried out in the class PrimitiveOperations, in the main method, and must be in the respective order.
