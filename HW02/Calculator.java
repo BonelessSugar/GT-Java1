@@ -86,8 +86,8 @@ public class Calculator {
 			
 		case "alphabetize":
 			System.out.print("Enter two words and press space between them: ");
-			String wordOne = input.next();
-			String wordTwo = input.next();
+			String wordOne = input.next().toLowerCase();
+			String wordTwo = input.next().toLowerCase();
 			int result = wordOne.compareTo(wordTwo);
 			System.out.print("\nAnswer: ");
 			if (result < 0) {
